@@ -1,0 +1,2 @@
+include ':app', ':ui', ':socket'
+rootProject.name='WebSocketTest'

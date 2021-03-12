@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CornerGifView">
+        <attr name="leftBottomCorner" format="dimension"/>
+        <attr name="leftTopCorner" format="dimension"/>
+        <attr name="rightBottomCorner" format="dimension"/>
+        <attr name="rightTopCorner" format="dimension"/>
+        <attr name="cornerSize" format="dimension"/>
+        <attr name="frameColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="EmotionView">
+        <attr name="type">
+            <flag name="emoji" value="1"></flag>
+            <flag name="features" value="2"></flag>
+        </attr>
+    </declare-styleable>
+</resources>

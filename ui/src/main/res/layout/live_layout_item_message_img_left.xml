@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><!--图片-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="12dp"
+    android:background="@color/live_none_color">
+
+    <TextView
+        android:id="@+id/tv_message_chat_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="time"
+        android:textSize="@dimen/live_font_size_11"
+        android:textColor="@color/live_gray_ac"
+        android:gravity="center"
+        android:paddingBottom="9dp"
+        android:visibility="visible"
+        />
+
+    <include
+        layout="@layout/live_layout_item_message_extra_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_message_chat_left_img"
+        android:layout_alignBottom="@+id/iv_message_chat_left_img"
+        android:layout_toRightOf="@+id/iv_message_chat_left_img"
+        android:layout_below="@+id/tv_message_chat_date"
+        />
+
+    <!--头像-->
+    <ImageView
+        android:id="@+id/civ_message_chat_left_avatar"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/live_img_avatar_default"
+        android:layout_gravity="bottom"
+        android:layout_below="@+id/tv_message_chat_date"
+        />
+    <!--名字-->
+    <TextView
+        android:id="@+id/tv_conversation_chat_left_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/live_font_size_11"
+        android:textColor="@color/live_gray_ac"
+        android:layout_marginLeft="52dp"
+        android:layout_below="@+id/tv_message_chat_date"
+        android:layout_marginBottom="5dp"
+        android:text="name"/>
+    <!--图片-->
+    <com.in.livechat.ui.chat.widget.CornerGifView
+        android:id="@+id/iv_message_chat_left_img"
+        android:layout_width="110dp"
+        android:layout_height="165dp"
+        android:layout_marginLeft="54dp"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/live_con_img_vertical"
+        android:layout_below="@+id/tv_conversation_chat_left_name"
+        app:cornerSize="3dp"
+        />
+
+</RelativeLayout>

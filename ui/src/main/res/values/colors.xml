@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--title-->
+    <color name="live_chat_background">#f1f1f1</color>
+    <color name="live_title_background">#6A5ACD</color>
+    <color name="live_title_text">#FFFFFF</color>
+
+    <!--album-->
+    <color name="live_pop_list_divide">#c7c7c7</color>
+    <color name="live_button_txt_enable">#ffffff</color>
+    <color name="live_button_txt_un_enable">#929292</color>
+    <color name="live_button_enable">#4285f4</color>
+    <color name="live_button_dark">#3C8DE4</color>
+    <color name="live_button_un_enable">#e1e1e1</color>
+    <color name="live_big_image_bg">#2d2d2d</color>
+    <color name="live_big_image_title">#ffffff</color>
+    <color name="live_img_list_item_txt">#333333</color>
+    <color name="live_img_list_select">#80000000</color>
+
+
+
+    <color name="live_none_color">#00000000</color>
+    <color name="live_gray_ac">#929292</color>
+    <color name="live_black_33">#333333</color>
+    <color name="live_red_light2">#ff2d56</color>
+    <color name="live_blue_main">#4285f4</color>
+    <color name="live_gray_f7">#f7f7f7</color>
+
+
+</resources>
